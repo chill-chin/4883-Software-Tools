@@ -1,9 +1,8 @@
 digraph ABC {
 
-  //rankdir=LR;
   
   node [shape=record,color=purple];
-  edge [arrowhead=vee, arrowtail=dot, color=orange, dir=both, taiclip=false];
+  edge [arrowhead=vee, arrowtail=dot, color=orange, dir=both, tailclip=false];
   
   nodesep=0.4;
   ranksep=0.5;
@@ -18,12 +17,12 @@ digraph ABC {
   G [label="<left> | <data> 7 | <right>"];
 
 
-  D:left -> B:data;
-  D:right -> F:data;
+  D:left:c -> B:data;
+  D:right:c -> F:data;
   
-  B:left -> A:data;
-  B:right -> C:data;
+  B:left:c -> A:data;
+  B:right:c -> C:data;
   
-  F:left -> E:data;
-  F:right -> G:data;
+  F:left:c -> E:data;
+  F:right:c -> G:data;
 }
