@@ -1,11 +1,11 @@
 ## A01 - Binary Search Trees in Graphviz
-## Chintan Mehta
+### Chintan Mehta
 
-## Description:
+### Description:
 Following is a binary search tree created using graphviz. The BST contains seven nodes and uses a record as its shape. The record has left, data and right sections.
 
 
-## Files:
+### Files:
 
 |   #   | File     | Description                                      |
 | :---: | -------- | ------------------------------------------------ |
@@ -13,7 +13,7 @@ Following is a binary search tree created using graphviz. The BST contains seven
 |   2   | [bst.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A01/bst.png)  | Image Output Binary Search Tree in png format    |
 
 
-## Instructions:
+### Instructions:
 
 1. Open a Graphviz Editor: https://dreampuf.github.io/GraphvizOnline/
 2. The dot syntax in the file [bst.dot](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A01/bst.dot) needs to be copied into the Graphviz Editor
