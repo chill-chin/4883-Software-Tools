@@ -1,0 +1,28 @@
+digraph ABC {
+
+  
+  node [shape=record,color=purple];
+  edge [arrowhead=vee, arrowtail=dot, color=orange, dir=both, tailclip=false];
+  
+  nodesep=0.4;
+  ranksep=0.5;
+
+
+  A [label="<left> | <data> 1 | <right>"];
+  B [label="<left> | <data> 2 | <right>"];
+  C [label="<left> | <data> 3 | <right>"];
+  D [label="<left> | <data> 4 | <right>"];
+  E [label="<left> | <data> 5 | <right>"];
+  F [label="<left> | <data> 6 | <right>"];
+  G [label="<left> | <data> 7 | <right>"];
+
+
+  D:left:c -> B:data;
+  D:right:c -> F:data;
+  
+  B:left:c -> A:data;
+  B:right:c -> C:data;
+  
+  F:left:c -> E:data;
+  F:right:c -> G:data;
+}
