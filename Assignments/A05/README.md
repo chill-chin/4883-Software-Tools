@@ -25,4 +25,4 @@ The following assignment involves creating a graph of family trees. The data fro
 3. Copy the contents of the generated '[family_tree.dot](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.dot)' file in a [Graphviz Editor](https://dreampuf.github.io/GraphvizOnline/).
 4. The resulting family tree should be identical to the image below:
 
-![alt text](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png)
+![alt text](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png | height = 100)
