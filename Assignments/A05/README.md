@@ -12,7 +12,7 @@ The following assignment involves creating a graph of family trees. The data fro
 |   2   | [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/main.py)    | Executes [helper.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/helper.py) and converts graphviz code to a .dot file |
 |   3   | [family_tree_data.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree_data.csv) | Use this file if the [helper.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/helper.py) file does not execute for any reason |
 |   4   | [family_tree.dot](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.dot) | Graphviz code that produces Family Tree vizualization  |
-|   5   | [dwarf_family_tree.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/dwarf_family_tree.csv)  | Data provided in the Assignment description    |
+|   5   | [dwarf_family_tree.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/dwarf_family_tree.csv)  | Data provided by @rugbyprof in the Assignment description    |
 |   6   | [mexican_names.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/mexican_names.csv)      | Data generated using ChatGPT   |
 |   7   | [family_tree.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png) | Image Output Binary Search Tree in png format |
 
