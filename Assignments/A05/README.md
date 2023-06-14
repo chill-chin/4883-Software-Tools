@@ -10,10 +10,11 @@ The following assignment involves creating a graph of family trees. The data fro
 | :---: | -------- | ------------------------------------------------ |
 |   1   | [helper.py]()  | Python script that helps cleaning the file 'dwarf_family_tree.csv' |
 |   2   | [main.py]()    | Executes [helper.py]() and converts graphviz code to a .dot file |
-|   3   | [family_tree.dot]() | Graphviz code that produces Family Tree vizualization  |
-|   4   | [dwarf_family_tree.csv]()  | Data provided in the Assignment description    |
-|   5   | [mexican_names.csv]()      | Data generated using ChatGPT   |
-|   6   | [family_tree.png]() | Image Output Binary Search Tree in png format |
+|   3   | [family_tree_data.py]() | Run this file if the [helper.py]() file does not execute for any reason |
+|   4   | [family_tree.dot]() | Graphviz code that produces Family Tree vizualization  |
+|   5   | [dwarf_family_tree.csv]()  | Data provided in the Assignment description    |
+|   6   | [mexican_names.csv]()      | Data generated using ChatGPT   |
+|   7   | [family_tree.png]() | Image Output Binary Search Tree in png format |
 
 ### Instructions:
 1. Download Files: [helper.py](), [main.py](), [dwarf_family_tree.csv](), [mexican_names.csv]().
