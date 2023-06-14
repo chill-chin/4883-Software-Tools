@@ -20,7 +20,7 @@ The following assignment involves creating a graph of family trees. The data fro
 -> ChatGPT was used to generate parts of [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/main.py) file and all of the [mexican_names.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/mexican_names.csv) file.
 
 ### Instructions:
-1. Download Files: [helper.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/helper.py), [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/main.py), [dwarf_family_tree.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/dwarf_family_tree.csv), [mexican_names.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/mexican_names.csv).
+1. Download 4 Files: [helper.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/helper.py), [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/main.py), [dwarf_family_tree.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/dwarf_family_tree.csv), [mexican_names.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/mexican_names.csv).
 2. Run the main.py file with other files present in the same folder.
 3. Copy the contents of the generated '[family_tree.dot](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.dot)' file in a [Graphviz Editor](https://dreampuf.github.io/GraphvizOnline/).
 4. The resulting family tree should be identical to [family_tree.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png).
