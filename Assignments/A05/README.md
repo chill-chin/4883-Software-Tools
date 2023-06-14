@@ -16,6 +16,9 @@ The following assignment involves creating a graph of family trees. The data fro
 |   6   | [mexican_names.csv]()      | Data generated using ChatGPT   |
 |   7   | [family_tree.png]() | Image Output Binary Search Tree in png format |
 
+### Declaration:
+-> ChatGPT was used to generate parts of [main.py]() file and all of the [mexican_names.csv]() file.
+
 ### Instructions:
 1. Download Files: [helper.py](), [main.py](), [dwarf_family_tree.csv](), [mexican_names.csv]().
 2. Run the main.py file with other files present in the same folder.
