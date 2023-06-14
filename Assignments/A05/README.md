@@ -19,4 +19,6 @@ The following assignment involves creating a graph of family trees. The data fro
 1. Download Files: [helper.py](), [main.py](), [dwarf_family_tree.csv](), [mexican_names.csv]().
 2. Run the main.py file with other files present in the same folder.
 3. Copy the contents of the generated '[family_tree.dot]()' file in a [Graphviz Editor](https://dreampuf.github.io/GraphvizOnline/).
-4. The resulting family tree should be identical to [family_tree.png]().
+4. The resulting family tree should be identical to the image below:
+
+![alt text]()
