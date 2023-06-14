@@ -14,7 +14,7 @@ The following assignment involves creating a graph of family trees. The data fro
 |   4   | [family_tree.dot](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.dot) | Graphviz code that produces Family Tree vizualization  |
 |   5   | [dwarf_family_tree.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/dwarf_family_tree.csv)  | Data provided by @rugbyprof in the Assignment description    |
 |   6   | [mexican_names.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/mexican_names.csv)      | Data generated using ChatGPT   |
-|   7   | [family_tree.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png) | Image Output Binary Search Tree in png format |
+|   7   | [family_tree.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png) | Image Output in png format |
 
 ### Declarations:
 -> Due to the syntax unfamiliarity, ChatGPT was used to generate parts of [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/main.py) file.
