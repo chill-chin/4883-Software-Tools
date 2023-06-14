@@ -26,4 +26,4 @@ The following assignment involves creating a graph of family trees. The data fro
 4. The resulting family tree should be identical to the image below:
 
 ### ![alt text](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png | height = 100)
-<img src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png" width="100" height="100">
+<img src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A05/family_tree.png" width="300" height="400">
