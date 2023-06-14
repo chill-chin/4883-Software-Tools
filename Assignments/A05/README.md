@@ -8,7 +8,15 @@ The following assignment involves creating a graph of family trees. The data fro
 
 |   #   | File     | Description                                      |
 | :---: | -------- | ------------------------------------------------ |
-|   1   | [helper.py]()  | File containing dot syntax for the Graphviz code |
-|   2   | [dwarf_family_tree.csv]()  | Image Output Binary Search Tree in png format    |
+|   1   | [helper.py]()  | Python script that helps cleaning the file 'dwarf_family_tree.csv' |
+|   2   | [main.py]()    | Executes [helper.py]() and converts graphviz code to a .dot file |
+|   3   | [family_tree.dot]() | Graphviz code that produces Family Tree vizualization  |
+|   4   | [dwarf_family_tree.csv]()  | Data provided in the Assignment description    |
+|   5   | [mexican_names.csv]()      | Data generated using ChatGPT   |
+|   6   | [family_tree.png]() | Image Output Binary Search Tree in png format |
 
 ### Instructions:
+1. Download Files: [helper.py](), [main.py](), [dwarf_family_tree.csv](), [mexican_names.csv]().
+2. Run the main.py file with other files present in the same folder.
+3. Copy the contents of the generated '[family_tree.dot]()' file in a [Graphviz Editor](https://dreampuf.github.io/GraphvizOnline/).
+4. The resulting family tree should be identical to [family_tree.png]().
