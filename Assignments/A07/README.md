@@ -36,18 +36,18 @@ The following assignment involves creating a **URL** based on the user input (th
 ### Example 1:
 **- Enter Values:** Day=1, Month=1, Year=2012, Airport Code=KABQ, Filter=daily
 
-<img align="left" width="150" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_1.png">
-<img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_1.png">
+<img align="left" width="150" height="310" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_1.png">
+<img align="center" width="830" height="310" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_1.png">
 
 ### Example 2:
 **- Enter Values:** Day=6, Month=6, Year=2016, Airport Code=BIKF, Filter=daily
 
-<img align="left" width="150" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_2.png">
-<img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_2.png">
+<img align="left" width="150" height="310" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_2.png">
+<img align="center" width="830" height="310" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_2.png">
 
 ### Example 3:
 **- Enter Values:** Day=2, Month=3, Year=2021, Airport Code=CYEG, Filter=daily
 
-<img align="left" width="150" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_3.png">
-<img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_3.png">
+<img align="left" width="150" height="310" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_3.png">
+<img align="center" width="830" height="310" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_3.png">
 
