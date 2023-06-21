@@ -11,7 +11,7 @@ The following assignment involves creating a **URL** based on the user input (th
 |   1   | xoxo | xoxo |
 
 ### Declarations:
--> 
+-> The files in this Assignment uses code already provided in the class [(See here)]('https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07') 
 
 ### Instructions:
 1. 
