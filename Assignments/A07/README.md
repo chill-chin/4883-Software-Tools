@@ -35,3 +35,15 @@ The following assignment involves creating a **URL** based on the user input (th
 <img align="left" width="150" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_1.png">
 <img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_1.png">
 
+### Example 2:
+- Enter Values: Day=, Month=, Year=, Airport Code=, Filter=daily
+
+<img align="left" width="150" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_.png">
+<img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_.png">
+
+### Example 3:
+- Enter Values: Day=, Month=, Year=, Airport Code=, Filter=daily
+
+<img align="left" width="150" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_.png">
+<img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_.png">
+
