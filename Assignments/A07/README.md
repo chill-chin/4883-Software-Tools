@@ -28,3 +28,4 @@ The following assignment involves creating a **URL** based on the user input (th
 ## Example Queries & Output:
 
 ### Example 1:
+- Enter Values: Day=1, Month=1, Year=2012, Airport Code=KABQ, Filter=daily
