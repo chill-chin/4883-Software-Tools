@@ -16,6 +16,8 @@ The following assignment involves creating a **URL** based on the user input (th
 |   5   | [output_1.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_1.png) | Query 1 Output |
 |   6   | [input_1.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_2.png) | Query 2 Input |
 |   7   | [output_1.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_2.png) | Query 2 Output |
+|   8   | [input_1.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_3.png) | Query 3 Input |
+|   9   | [output_1.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_3.png) | Query 3 Output |
 ## Declarations:
 -> This Assignment modifies the code already provided [in the class](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07).
 
@@ -43,8 +45,8 @@ The following assignment involves creating a **URL** based on the user input (th
 <img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_2.png">
 
 ### Example 3:
-- Enter Values: Day=, Month=, Year=, Airport Code=, Filter=daily
+- Enter Values: Day=2, Month=3, Year=2021, Airport Code=CYEG, Filter=daily
 
-<img align="left" width="150" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_.png">
-<img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_.png">
+<img align="left" width="150" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_3.png">
+<img align="center" width="800" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_3.png">
 
