@@ -50,7 +50,7 @@ def buildWeatherURL(month=None, day=None, year=None, airport=None, filter=None):
         [sg.Text('Day')], [sg.Combo(list(range(1, 32)), default_value=day, key='-DAY-')],
         [sg.Text('Year')], [sg.Combo(list(range(2012, current_year + 1)), default_value=year, key='-YEAR-')],
         [sg.Text('Airport Code')], [sg.Combo(airport_codes, key='-AIRPORT-', enable_events=True)],
-        [sg.Text('Daily / Weekly / Monthly')], [sg.Combo(['daily', 'weekly', 'monthly'], default_value='daily', key='-FILTER-')],
+        [sg.Text('Filter')], [sg.Combo(['daily', 'weekly', 'monthly'], default_value='daily', key='-FILTER-')],
         [sg.Submit(), sg.Cancel()]
     ]   
 
