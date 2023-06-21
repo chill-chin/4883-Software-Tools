@@ -12,6 +12,8 @@ The following assignment involves creating a **URL** based on the user input (th
 |   1   | [airport-codes.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/airport-codes.csv) | Necessary data for GUI |
 |   2   | [get_weather_data.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/get_weather_data.py) | Code to get the Weather data  |
 |   3   | [gui.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/gui.py) | Code to create an Input/Output GUI |
+|   4   | [input_1.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_1.png) | Query 1 Input |
+|   5   | [output_1.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_1.png) | Query 1 Output |
 
 ## Declarations:
 -> This Assignment modifies the code already provided [in the class](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07).
@@ -30,4 +32,7 @@ The following assignment involves creating a **URL** based on the user input (th
 ### Example 1:
 - Enter Values: Day=1, Month=1, Year=2012, Airport Code=KABQ, Filter=daily
 
-![alt text]()
+![alt text](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_1.png)
+
+![alt text](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_1.png)
+
