@@ -11,7 +11,8 @@ The following assignment involves creating a **URL** based on the user input (th
 |   1   | xoxo | xoxo |
 
 ### Declarations:
--> This Assignment uses the code already provided in the [class](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07.
+-> This Assignment uses the code already provided in the [class](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07)
+
 -> ChatGPT was additionally used to get help with the Python syntax for [gui.py]()
 
 ### Instructions:
