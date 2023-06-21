@@ -9,9 +9,9 @@ The following assignment involves creating a **URL** based on the user input (th
 
 |   #   | File     | Description                                      |
 | :---: | -------- | ------------------------------------------------ |
-|   1   | xoxo | xoxo |
-|   2   | xoxo | xoxo |
-|   3   | xoxo | xoxo |
+|   1   | [airport-codes.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/airport-codes.csv) | Necessary data for GUI |
+|   2   | [get_weather_data.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/get_weather_data.py) | Code to get the Weather data  |
+|   3   | [gui.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/gui.py) | Code to create an Input and Output GUI |
 
 ### Declarations:
 -> This Assignment modifies the code already provided [in the class](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07).
