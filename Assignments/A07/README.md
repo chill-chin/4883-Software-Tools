@@ -9,6 +9,8 @@ The following assignment involves creating a **URL** based on the user input (th
 |   #   | File     | Description                                      |
 | :---: | -------- | ------------------------------------------------ |
 |   1   | xoxo | xoxo |
+|   2   | xoxo | xoxo |
+|   3   | xoxo | xoxo |
 
 ### Declarations:
 -> This Assignment modifies the code already provided in the [class](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07).
