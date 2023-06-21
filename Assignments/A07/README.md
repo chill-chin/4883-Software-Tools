@@ -32,7 +32,6 @@ The following assignment involves creating a **URL** based on the user input (th
 ### Example 1:
 - Enter Values: Day=1, Month=1, Year=2012, Airport Code=KABQ, Filter=daily
 
-![alt text](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_1.png)
-
-![alt text](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_1.png)
+<img align="left" width="100" height="100" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_1.png">
+<img align="right" width="100" height="100" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_1.png">
 
