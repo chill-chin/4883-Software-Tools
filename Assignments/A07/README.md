@@ -18,6 +18,7 @@ The following assignment involves creating a **URL** based on the user input (th
 |   7   | [output_2.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_2.png) | Query 2 Output |
 |   8   | [input_3.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/input_3.png) | Query 3 Input |
 |   9   | [output_3.png](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A07/output_3.png) | Query 3 Output |
+
 ## Declarations:
 -> This Assignment modifies the code already provided [in the class](https://github.com/rugbyprof/4883-Software-Tools/tree/master/Assignments/A07).
 
