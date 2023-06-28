@@ -15,4 +15,4 @@ The goal is to achieve **_Secure Remote Server Management_**. This is done
 1. **Download** & **Setup** WinSCP, PuTTY.
 
 ## Practical Example
-* Tasks like doing computational science research, training ML models need High Performance Computing clusters. These clusters are accessed remotely mostly through a client
+* Tasks like doing computational science research, training ML models need High Performance Computing clusters. These clusters are accessed remotely mostly through a client-server model
