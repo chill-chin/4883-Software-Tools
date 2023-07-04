@@ -8,3 +8,5 @@
 |   [A05](https://github.com/chill-chin/4883-Software-Tools/tree/main/Assignments/A05)    | Family Tree via Graphviz        |
 |   [A06](https://github.com/chill-chin/4883-Software-Tools/tree/main/Assignments/A06)    | Software Tools Presentation        |
 |   [A07](https://github.com/chill-chin/4883-Software-Tools/tree/main/Assignments/A07)    | Web Scraping        |
+|   [A08](https://github.com/chill-chin/4883-Software-Tools/tree/main/Assignments/A08)    | Fast Api with Covid Data        |
+
