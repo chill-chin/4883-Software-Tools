@@ -3,6 +3,7 @@
 ### Chintan Mehta
 
 ### Description:
+* Document explaining the API endpoints and their usage (comment functions properly)
 
 ### Files:
 
@@ -10,8 +11,14 @@
 | :---: | -------- | ------------------------------------------------ |
 |   1   | [h]()  |           |
 
-### Declarations:
+### Declarations
 -> ChatGPT was used to generate parts of ...
+
 
 ### Instructions:
 1. 
+
+### Summary
+* Implementation process: 
+* Challenges faced:
+* Additional functionality:

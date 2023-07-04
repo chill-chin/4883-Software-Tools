@@ -5,24 +5,18 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import csv
 
-
-
 description = """🚀
-## 4883 Software Tools
-### Where awesomeness happens
+## 4883 Software Tools - Chintan Mehta
 """
 
-
 app = FastAPI(
-
     description=description,
-
 )
 
 db = []
 
 # Open the CSV file
-with open('data.csv', 'r') as file:
+with open(r'C:\Users\hameh\Downloads\4883-Software-Tools\Assignments\A08\data.csv', 'r') as file:
     # Create a CSV reader object
     reader = csv.reader(file)
 
