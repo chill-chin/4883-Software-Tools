@@ -343,12 +343,14 @@
 
 </details>
 
-#
+---
+
 ### Summary
-* Implementation process: 
+
+* **Implementation process:** The already given python file for FastAPI was edited to include various functions enabling different routes for API endpoints.
 
 
-* Challenges faced: Filtering by Date (first 4 integers). Had to use ChatGPT to find 'startswith(str(year))'
-, Writing the function to handle filtering
-Writing function to find the country with min/max deaths
-* Additional functionality:
+* **Challenges faced:** 
+
+    * Creating functions handle min/max deaths country or region wise was challenging. ChatGPT was used to create functions for it. 
+    * Additionally for filtering by date (first four integers), the method 'startswith(str(year))' was obtained from ChatGPT.
