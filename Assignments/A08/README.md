@@ -17,7 +17,7 @@
 |   1   | [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py)  | RESTful API file          |
 |  2    | [data.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/data.csv) | Covid-19 Data
 
-### Declarations
+### Declaration
 * ChatGPT was used to generate some of the functions in [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py).
 
 ### Instructions:
@@ -343,16 +343,12 @@
 
 </details>
 
-
-### Declarations
-* ChatGPT was used to generate some of the functions in [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py).
-
+---
 
 ### Summary
 * Implementation process: The already given python file for FastAPI was edited to include various functions enabling different routes for API endpoints.
 
-
 * Challenges faced:
 
-    * It was challenging to create functions to handle min/max deaths country or region wise. ChatGPT was used here. 
-    * Additionally for filtering by date (first four integers), the method 'startswith(str(year))' was also obtained from ChatGPT.
+    * Creating functions to handle min/max deaths country or region wise. ChatGPT was used here. 
+    * Filtering by date (first 4 integers). Method 'startswith(str(year))' was obtained from ChatGPT.
