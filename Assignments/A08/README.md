@@ -28,7 +28,7 @@
 5. Open any browser. Access the [default link](http://127.0.0.1:5000) or any of the route links mentioned below.
 6. Interface shown below shown load up.
 
-<img align="center" width="900" height="500" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/FastAPI.png">
+<img align="center" width="1000" height="500" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/FastAPI.png">
 
 ### Summary
 * Implementation process: 
