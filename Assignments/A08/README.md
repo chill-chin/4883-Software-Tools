@@ -25,10 +25,56 @@
 2. Open the downloaded files in VSCode.
 3. Change the Directory path in [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py) file (Line 20).
 4. Run [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py)
-5. Open any browser. Access the [default link](http://127.0.0.1:5000) or any of the route links mentioned below.
+5. Open any browser. Access the [default link](http://127.0.0.1:5000) or any of the below mentioned **_route links_**.
 6. Interface shown below shown load up.
 
 <img align="center" width="800" height="400" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/FastAPI.png">
+
+
+### Generic Routes
+
+* Route: /
+    * Retrieves the documentation provided by swagger.
+
+* Route: /countries
+    * This route will return a list of unique countries in the Covid data file.
+    
+    - **Params:**
+      - None
+
+    - **Returns:**
+      - (object) : List of countries
+
+    #### Request URL: [http://127.0.0.1:5000/countries](http://127.0.0.1:5000/countries)
+
+    #### Success:
+
+    {
+        "countries": [
+            "Afghanistan",
+            "Albania",
+            "Algeria",
+            "American Samoa"
+            ],
+        "success": True
+    }
+
+    #### Error: 
+    // Change 'Country' to 'Contry' in main.py (line 65)
+    
+    {
+        "error": "'Contry'",
+        "success": False
+    }   
+    """
+
+
+
+* Route: /regions
+    * Retrieves a list of available WHO regions from the "db"
+
+
+
 
 ### Summary
 * Implementation process: 

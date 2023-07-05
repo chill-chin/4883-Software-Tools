@@ -22,7 +22,7 @@ data = pd.read_csv('data.csv')
 
 """Route 1"""
 @app.get("/")
-async def docs_redirect():
+async def documentation():
     """Api's base route that displays the information created above in the ApiInfo section."""
     return RedirectResponse(url="/docs")
 
@@ -45,9 +45,11 @@ async def countries():
     #### Success:
 
     {
-        "countries":
-            [
-            "Afghanistan","Albania","Algeria","American Samoa"
+        "countries": [
+            "Afghanistan",
+            "Albania",
+            "Algeria",
+            "American Samoa"
             ],
         "success": True
     }
