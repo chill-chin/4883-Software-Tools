@@ -217,7 +217,7 @@
 ### Aggregate Routes
 
 <details>
-<summary><b> /max_deaths <b></summary>
+<summary><b> /max_deaths </b></summary>
 
 * This method will return the country with most deaths cumulatively or between a date range.
 
@@ -261,7 +261,7 @@
 
 
 <details>
-<summary><b> /min_deaths <b></summary>
+<summary><b> /min_deaths </b></summary>
 
 * This method will return the country with minimum deaths cumulatively or between a date range.
 
@@ -346,9 +346,9 @@
 ---
 
 ### Summary
-* Implementation process: The already given python file for FastAPI was edited to include various functions enabling different routes for API endpoints.
+* **Implementation process:** The already given python file for FastAPI was edited to include various functions enabling different routes for API endpoints.
 
-* Challenges faced:
+* **Challenges faced:**
 
     * Creating functions to handle min/max deaths country or region wise. ChatGPT was used here. 
     * Filtering by date (first 4 integers). Method 'startswith(str(year))' was obtained from ChatGPT.
