@@ -36,6 +36,8 @@
 * Route: /
     * Retrieves the documentation provided by swagger.
 
+#
+
 * Route: /countries
     * This route will return a list of unique countries in the Covid data file.
     
@@ -48,7 +50,7 @@
     #### Request URL: [http://127.0.0.1:5000/countries](http://127.0.0.1:5000/countries)
 
     #### Success:
-
+    ```
     {
         "countries": [
             "Afghanistan",
@@ -58,17 +60,18 @@
             ],
         "success": True
     }
+    ```
 
     #### Error: 
     // Change 'Country' to 'Contry' in main.py (line 65)
-    
+    ```
     {
         "error": "'Contry'",
         "success": False
     }   
-    """
+    ```
 
-
+#
 
 * Route: /regions
     * Retrieves a list of available WHO regions from the "db"
