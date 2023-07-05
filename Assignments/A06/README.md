@@ -20,7 +20,7 @@
 * The goal is to achieve **_Secure Remote Server Management_**. This is done
 
 - Goal: Securely transferring files between local host and a remote host/server.
-
+- integrate with vscode
 
 * Tasks like doing computational science research, training ML models need High Performance Computing clusters. These clusters are accessed remotely mostly through a client-server model
 
