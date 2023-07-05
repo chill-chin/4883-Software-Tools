@@ -23,7 +23,7 @@
 3. Change the Directory path in [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py) file (Line 20).
 4. Run [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py)
 5. Open any browser. Access the [default link](http://127.0.0.1:5000) or any of the below mentioned **_route links_**.
-6. Interface shown below shown load up.
+6. Interface shown below should load up.
 
 <img align="center" width="800" height="400" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/FastAPI.png">
 
