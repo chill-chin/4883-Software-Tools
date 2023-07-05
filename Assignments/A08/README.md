@@ -3,7 +3,10 @@
 ### Chintan Mehta
 
 ### Description:
-* Document explaining the API endpoints and their usage (comment functions properly)
+* This Assignment creates a RESTful API using FastAPI. 
+* The goal is to fetch Covid related data from a CSV file, expose endpoints using FastAPI in order to get the necessary data. 
+* Lastly, uvicorn is used to locally host the API.
+
 
 ### Files:
 
