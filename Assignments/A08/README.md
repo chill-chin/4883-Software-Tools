@@ -31,10 +31,10 @@
 <img align="center" width="800" height="400" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/FastAPI.png">
 
 
-### Routes
+### Generic Routes
 
 <details>
-<summary> Route: / </summary>
+<summary><b> Route: / </b></summary>
 
 * Retrieves the documentation provided by swagger.
 * #### Request URL: [http://127.0.0.1:5000](http://127.0.0.1:5000)
@@ -42,7 +42,7 @@
 
 
 <details>
-<summary> Route: /countries </summary>
+<summary><b> Route: /countries </b></summary>
 
 * This route will return a list of unique countries in the Covid data file.
     
@@ -80,60 +80,19 @@
 
 
 <details>
-<summary> Route: / </summary>
-<br>
-</details>
+<summary><b> Route: /regions </b></summary>
 
----
-
-* Route: /countries
-    * This route will return a list of unique countries in the Covid data file.
+* This route will return a list of WHO regions.
     
-    - **Params:**
-      - None
+* **Params:**
+  - None
 
-    - **Returns:**
-      - (object) : List of countries
+* **Returns:**
+  - (object) : List of regions
 
-    #### Request URL: [http://127.0.0.1:5000/countries](http://127.0.0.1:5000/countries)
+* #### Request URL: [http://127.0.0.1:5000/regions](http://127.0.0.1:5000/regions)
 
-    #### Success:
-    ```
-    {
-        "countries": [
-            "Afghanistan",
-            "Albania",
-            "Algeria",
-            "American Samoa"
-            ],
-        "success": True
-    }
-    ```
-
-    #### Error: 
-    // Change 'Country' to 'Contry' in main.py (line 65)
-    ```
-    {
-        "error": "'Contry'",
-        "success": False
-    }   
-    ```
-
-#
-* Route: /regions
-    * This route will return a list of WHO regions.
-    
-    - **Params:**
-      - None
-
-    - **Returns:**
-      - (object) : List of regions
-
-    #### Request URL:
-
-    [http://127.0.0.1:5000/regions](http://127.0.0.1:5000/regions)
-
-    #### Success:
+* #### Success:
     ```
     {
         "regions": [
@@ -149,7 +108,7 @@
     }
     ```
 
-    #### Error: 
+* #### Error: 
     // Change 'WHO_region' to 'WHO' in main.py (line 110)
 
     ```
@@ -158,23 +117,104 @@
         "success": False
     }  
     ```
+</details>
 
+#
+### Death Routes
 
+<details>
+<summary><b> Route: /deaths </b></summary>
 
+* This method will return total deaths, and can also return deaths by country, region or year.
 
+-  **Params:**
+    - Country (str) : A Country name
+    - Region (str)  : A Region name
+    - Year (int)    : A 4 digit year
 
+- **Returns:**
+    - (int) : Total deaths based on the parameters
 
+- #### Request URL 1: [http://127.0.0.1:5000/deaths](http://127.0.0.1:5000/deaths)
 
+- #### Success Response 1:
 
+        {
+        "total_deaths": 6945714,
+        "params": {
+            "country": null,
+            "region": null,
+            "year": null
+        },
+        "success": true
+        }
 
+- #### Request URL 2: [http://127.0.0.1:5000/deaths?region=EURO&year=2021](http://127.0.0.1:5000/deaths?region=EURO&year=2021)
+  
+- #### Success Response 2:
+        
+        {
+        "total_deaths": 1087689,
+        "params": {
+            "country": null,
+            "region": "EURO",
+            "year": 2021
+        },
+        "success": true
+        }
 
+</details>
 
 
 #
+### Case Routes
+
+<details>
+<summary><b> Route: /cases </b></summary>
+
+* This method will return total cases, and can also return cases by country, region or year.
+
+- **Params:**
+    - Country (str) : A Country name
+    - Region (str)  : A Region name
+    - Year (int)    : A 4 digit year
+
+- **Returns:**
+    - (int) : Total cases based on the parameters
+
+#### Request URL 1: [http://127.0.0.1:5000/cases](http://127.0.0.1:5000/cases)
+
+#### Success Response 1:
+
+    {
+    "total_cases": 768187096,
+    "params": {
+        "country": null,
+        "region": null,
+        "year": null
+    },
+    "success": true
+    }
+
+#### Request URL 2: [http://127.0.0.1:5000/cases?region=EURO&year=2021](http://127.0.0.1:5000/cases?region=EURO&year=2021)
+
+#### Success Response 2:
+
+    {
+    "total_cases": 74824714,
+    "params": {
+        "country": null,
+        "region": "EURO",
+        "year": 2021
+    },
+    "success": true
+    }
+
+</details>
+
 #
-#
-#
-#
+### Death Routes
+### Aggregate Routes
 
 ### Summary
 * Implementation process: 
