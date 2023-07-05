@@ -182,40 +182,167 @@
 - **Returns:**
     - (int) : Total cases based on the parameters
 
-#### Request URL 1: [http://127.0.0.1:5000/cases](http://127.0.0.1:5000/cases)
+* #### Request URL 1: [http://127.0.0.1:5000/cases](http://127.0.0.1:5000/cases)
 
-#### Success Response 1:
+* #### Success Response 1:
 
-    {
-    "total_cases": 768187096,
-    "params": {
-        "country": null,
-        "region": null,
-        "year": null
-    },
-    "success": true
-    }
+        {
+        "total_cases": 768187096,
+        "params": {
+            "country": null,
+            "region": null,
+            "year": null
+        },
+        "success": true
+        }
 
-#### Request URL 2: [http://127.0.0.1:5000/cases?region=EURO&year=2021](http://127.0.0.1:5000/cases?region=EURO&year=2021)
+* #### Request URL 2: [http://127.0.0.1:5000/cases?region=EURO&year=2021](http://127.0.0.1:5000/cases?region=EURO&year=2021)
 
-#### Success Response 2:
+* #### Success Response 2:
 
-    {
-    "total_cases": 74824714,
-    "params": {
-        "country": null,
-        "region": "EURO",
-        "year": 2021
-    },
-    "success": true
-    }
+        {
+        "total_cases": 74824714,
+        "params": {
+            "country": null,
+            "region": "EURO",
+            "year": 2021
+        },
+        "success": true
+        }
 
 </details>
 
 #
-### Death Routes
 ### Aggregate Routes
 
+<details>
+<summary><b> /max_deaths <b></summary>
+
+* This method will return the country with most deaths cumulatively or between a date range.
+
+- **Params:**
+    - min_date (str) : Start Date
+    - max_date (str) : End Date
+
+- **Returns:**
+    - (int) : Cumulative deaths
+
+* #### Request URL 1: [http://127.0.0.1:5000/max_deaths](http://127.0.0.1:5000/max_deaths)
+
+* #### Success Response 1:
+        {
+        "max_deaths_country": "United States of America",
+        "cumulative_deaths": 1127152,
+        "params": {
+            "min_date": null,
+            "max_date": null
+        },
+        "success": true
+        }
+    
+* #### Request URL Example 2:
+
+[http://127.0.0.1:5000/max_deaths?min_date=2022-01-01&max_date=2023-01-01](http://127.0.0.1:5000/max_deaths?min_date=2022-01-01&max_date=2023-01-01)
+
+* #### Success Response 2:
+
+        {
+        "max_deaths_country": "United States of America",
+        "cumulative_deaths": 1082456,
+        "params": {
+            "min_date": "2022-01-01",
+            "max_date": "2023-01-01"
+        },
+        "success": true
+        }
+
+</details>
+
+
+<details>
+<summary><b> /min_deaths <b></summary>
+
+* This method will return the country with minimum deaths cumulatively or between a date range.
+
+- **Params:**
+    - min_date (str) : Start Date
+    - max_date (str) : End Date
+
+- **Returns:**
+    - (int) : Cumulative deaths
+
+* #### Request URL 1: [http://127.0.0.1:5000/min_deaths](http://127.0.0.1:5000/min_deaths)
+
+* #### Success Response 1:
+
+        {
+        "min_deaths_country": "Afghanistan",
+        "cumulative_deaths": 0,
+        "params": {
+            "min_date": null,
+            "max_date": null
+        },
+        "success": true
+        }
+    
+#### Request URL 2: [http://127.0.0.1:5000/min_deaths?min_date=2022-01-01&max_date=2023-01-01](http://127.0.0.1:5000/min_deaths?min_date=2022-01-01&max_date=2023-01-01)
+
+#### Success Response 2:
+
+        {
+        "min_deaths_country": "American Samoa",
+        "cumulative_deaths": 0,
+        "params": {
+            "min_date": "2022-01-01",
+            "max_date": "2023-01-01"
+        },
+        "success": true
+        }
+
+</details>
+
+
+<details>
+<summary><b> /avg_deaths </b></summary>
+
+* This method will return average deaths by country and region.
+
+- **Params:**
+    - Country (str) : A Country name
+    - Region (str)  : A Region name
+
+- **Returns:**
+    - (int) : Average deaths based on the parameters
+
+* #### Request URL 1: [http://127.0.0.1:5000/avg_deaths?country=India](http://127.0.0.1:5000/avg_deaths?country=India)
+
+* #### Success Response 1:
+
+        {
+        "avg_deaths": 84,
+        "params": {
+            "country": "India",
+            "region": null
+        },
+        "success": true
+        }
+
+* #### Request URL 2: [http://localhost:5000/avg_deaths?region=EURO](http://localhost:5000/avg_deaths?region=EURO)
+
+* #### Success Response 2:
+
+        {
+        "avg_deaths": 123,
+        "params": {
+            "country": null,
+            "region": "EURO"
+        },
+        "success": true
+        }
+
+</details>
+
+#
 ### Summary
 * Implementation process: 
 
