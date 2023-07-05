@@ -37,6 +37,7 @@
 <summary><b> Route: / </b></summary>
 
 * Retrieves the documentation provided by swagger.
+
 * #### Request URL: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 </details>
 
@@ -127,17 +128,17 @@
 
 * This method will return total deaths, and can also return deaths by country, region or year.
 
--  **Params:**
+*  **Params:**
     - Country (str) : A Country name
     - Region (str)  : A Region name
     - Year (int)    : A 4 digit year
 
-- **Returns:**
+* **Returns:**
     - (int) : Total deaths based on the parameters
 
-- #### Request URL 1: [http://127.0.0.1:5000/deaths](http://127.0.0.1:5000/deaths)
+* #### Request URL 1: [http://127.0.0.1:5000/deaths](http://127.0.0.1:5000/deaths)
 
-- #### Success Response 1:
+* #### Success Response 1:
 
         {
         "total_deaths": 6945714,
@@ -149,9 +150,9 @@
         "success": true
         }
 
-- #### Request URL 2: [http://127.0.0.1:5000/deaths?region=EURO&year=2021](http://127.0.0.1:5000/deaths?region=EURO&year=2021)
+* #### Request URL 2: [http://127.0.0.1:5000/deaths?region=EURO&year=2021](http://127.0.0.1:5000/deaths?region=EURO&year=2021)
   
-- #### Success Response 2:
+* #### Success Response 2:
         
         {
         "total_deaths": 1087689,
@@ -174,12 +175,12 @@
 
 * This method will return total cases, and can also return cases by country, region or year.
 
-- **Params:**
+* **Params:**
     - Country (str) : A Country name
     - Region (str)  : A Region name
     - Year (int)    : A 4 digit year
 
-- **Returns:**
+* **Returns:**
     - (int) : Total cases based on the parameters
 
 * #### Request URL 1: [http://127.0.0.1:5000/cases](http://127.0.0.1:5000/cases)
@@ -220,11 +221,11 @@
 
 * This method will return the country with most deaths cumulatively or between a date range.
 
-- **Params:**
+* **Params:**
     - min_date (str) : Start Date
     - max_date (str) : End Date
 
-- **Returns:**
+* **Returns:**
     - (int) : Cumulative deaths
 
 * #### Request URL 1: [http://127.0.0.1:5000/max_deaths](http://127.0.0.1:5000/max_deaths)
@@ -264,11 +265,11 @@
 
 * This method will return the country with minimum deaths cumulatively or between a date range.
 
-- **Params:**
+* **Params:**
     - min_date (str) : Start Date
     - max_date (str) : End Date
 
-- **Returns:**
+* **Returns:**
     - (int) : Cumulative deaths
 
 * #### Request URL 1: [http://127.0.0.1:5000/min_deaths](http://127.0.0.1:5000/min_deaths)
@@ -307,11 +308,11 @@
 
 * This method will return average deaths by country and region.
 
-- **Params:**
+* **Params:**
     - Country (str) : A Country name
     - Region (str)  : A Region name
 
-- **Returns:**
+* **Returns:**
     - (int) : Average deaths based on the parameters
 
 * #### Request URL 1: [http://127.0.0.1:5000/avg_deaths?country=India](http://127.0.0.1:5000/avg_deaths?country=India)
