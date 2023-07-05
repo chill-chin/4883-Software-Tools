@@ -343,7 +343,6 @@
 
 </details>
 
----
 
 ### Declarations
 * ChatGPT was used to generate some of the functions in [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py).
