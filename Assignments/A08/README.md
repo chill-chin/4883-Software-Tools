@@ -24,13 +24,16 @@
 1. Download the files [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py), [data.csv](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/data.csv).
 2. Open the downloaded files in VSCode.
 3. Change the Directory path in [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py) file (Line 20).
-4. Run main.py
+4. Run [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py)
 5. Open any browser. Access the [default link](http://127.0.0.1:5000) or any of the route links mentioned below.
+
+
+<img align="center" width="400" height="300" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/FastAPI.png">
 
 ### Summary
 * Implementation process: 
 
-[Image](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/FastAPI.png)
+
 * Challenges faced: Filtering by Date (first 4 integers). Had to use ChatGPT to find 'startswith(str(year))'
 , Writing the function to handle filtering
 Writing function to find the country with min/max deaths
