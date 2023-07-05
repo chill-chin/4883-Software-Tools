@@ -22,4 +22,5 @@
 * Implementation process: 
 * Challenges faced: Filtering by Date (first 4 integers). Had to use ChatGPT to find 'startswith(str(year))'
 , Writing the function to handle filtering
+Writing function to find the country with min/max deaths
 * Additional functionality:
