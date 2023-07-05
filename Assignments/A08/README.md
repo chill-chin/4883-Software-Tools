@@ -347,10 +347,10 @@
 
 ### Summary
 
-* **Implementation process:** The already given python file for FastAPI was edited to include various functions enabling different routes for API endpoints.
+* Implementation process: The already given python file for FastAPI was edited to include various functions enabling different routes for API endpoints.
 
 
-* **Challenges faced:** 
+* Challenges faced:
 
-    * Creating functions handle min/max deaths country or region wise was challenging. ChatGPT was used to create functions for it. 
-    * Additionally for filtering by date (first four integers), the method 'startswith(str(year))' was obtained from ChatGPT.
+    * It was challenging to create functions to handle min/max deaths country or region wise. ChatGPT was used here. 
+    * Additionally for filtering by date (first four integers), the method 'startswith(str(year))' was also obtained from ChatGPT.
