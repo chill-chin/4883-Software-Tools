@@ -31,12 +31,60 @@
 <img align="center" width="800" height="400" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/FastAPI.png">
 
 
-### Generic Routes
+### Routes
 
-* Route: /
-    * Retrieves the documentation provided by swagger.
+<details>
+<summary> Route: / </summary>
 
-#
+* Retrieves the documentation provided by swagger.
+* #### Request URL: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+</details>
+
+
+<details>
+<summary> Route: /countries </summary>
+
+* This route will return a list of unique countries in the Covid data file.
+    
+* **Params:**
+    * None
+
+* **Returns:**
+    * (object) : List of countries
+
+* #### Request URL: [http://127.0.0.1:5000/countries](http://127.0.0.1:5000/countries)
+
+* #### Success:
+    ```
+    {
+        "countries": [
+            "Afghanistan",
+            "Albania",
+            "Algeria",
+            "American Samoa"
+            ],
+        "success": True
+    }
+    ```
+
+* #### Error: 
+    // Change 'Country' to 'Contry' in main.py (line 65)
+    ```
+    {
+        "error": "'Contry'",
+        "success": False
+    }   
+    ```
+
+</details>
+
+
+<details>
+<summary> Route: / </summary>
+<br>
+</details>
+
+---
 
 * Route: /countries
     * This route will return a list of unique countries in the Covid data file.
@@ -72,12 +120,61 @@
     ```
 
 #
-
 * Route: /regions
-    * Retrieves a list of available WHO regions from the "db"
+    * This route will return a list of WHO regions.
+    
+    - **Params:**
+      - None
+
+    - **Returns:**
+      - (object) : List of regions
+
+    #### Request URL:
+
+    [http://127.0.0.1:5000/regions](http://127.0.0.1:5000/regions)
+
+    #### Success:
+    ```
+    {
+        "regions": [
+            "EMRO",
+            "EURO",
+            "AFRO",
+            "WPRO",
+            "AMRO",
+            "SEARO",
+            "Other"
+        ],
+        "success": True
+    }
+    ```
+
+    #### Error: 
+    // Change 'WHO_region' to 'WHO' in main.py (line 110)
+
+    ```
+    {
+        "error": "'WHO'",
+        "success": False
+    }  
+    ```
 
 
 
+
+
+
+
+
+
+
+
+
+#
+#
+#
+#
+#
 
 ### Summary
 * Implementation process: 
