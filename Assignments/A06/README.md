@@ -13,9 +13,14 @@
 * SWT for this course: something that streamlines or simplifies the development process
 * adds productivity to the programming process
 * make it presentation interactive
+* use: secure remote control of server, other computers
+
 ---
 
 * The goal is to achieve **_Secure Remote Server Management_**. This is done
+
+- Goal: Securely transferring files between local host and a remote host/server.
+
 
 * Tasks like doing computational science research, training ML models need High Performance Computing clusters. These clusters are accessed remotely mostly through a client-server model
 
