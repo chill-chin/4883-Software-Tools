@@ -20,5 +20,6 @@
 
 ### Summary
 * Implementation process: 
-* Challenges faced:
+* Challenges faced: Filtering by Date (first 4 integers). Had to use ChatGPT to find 'startswith(str(year))'
+, Writing the function to handle filtering
 * Additional functionality:
