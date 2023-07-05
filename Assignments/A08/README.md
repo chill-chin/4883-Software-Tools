@@ -345,8 +345,11 @@
 
 ---
 
-### Summary
+### Declarations
+* ChatGPT was used to generate some of the functions in [main.py](https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A08/main.py).
 
+
+### Summary
 * Implementation process: The already given python file for FastAPI was edited to include various functions enabling different routes for API endpoints.
 
 
