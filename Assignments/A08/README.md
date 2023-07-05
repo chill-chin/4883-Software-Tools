@@ -4,8 +4,10 @@
 
 ### Description:
 * This Assignment creates a RESTful API using FastAPI. 
-* The goal is to fetch Covid related data from a CSV file, expose endpoints using FastAPI in order to get the necessary data. 
-* Lastly, uvicorn is used to locally host the API.
+* The goal is to 
+    1. Fetch Covid related data from a CSV file
+    2. Expose endpoints using FastAPI in order to get the necessary data. 
+    3. Lastly, uvicorn is used to locally host the API.
 
 
 ### Files:
