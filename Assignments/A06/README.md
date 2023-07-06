@@ -41,7 +41,9 @@
         * Path to *plink.exe*: `"C:\Program Files\PuTTY\plink.exe"`
         * SSH Connection details: `-ssh chamoy@stampede2.tacc.utexas.edu`
 
-    3. **Connection Confirmation:**
+    3. **Connection confirmation:**
        <img align="center" width="600" height="20" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A06/2_Confirmation.png">
 
-    4. 
+    4. **Code to backup files:**
+
+            scp chamoy@stampede2.tacc.utexas.edu:/home1/09347/chamoy/backup/* C:\Users\hameh\Desktop\TACC\
