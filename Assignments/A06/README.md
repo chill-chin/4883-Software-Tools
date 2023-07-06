@@ -30,29 +30,15 @@
 
 ## Demo
 
-* **Scenario:** Imagine that you have a web server hosting important files and databases that require regular backups.
+* **Scenario:** Connect with the web server using SSH and backup files to local client. 
 
     1. **Download** & **Setup** WinSCP, PuTTY.
-    2. Write a **WinSCP script** ('script.txt') for desired computation. We are **updating a file** and **automating backups** for this demo.
 
-            # Change to the desired remote directory
-            cd /home1/09347/chamoy/backup
+    2. PuTTY's ***plink - command-line utility*** helps establish a SSH connection.
 
-            # Write 'Hello World' to a file
-            put - -append > readme.txt
-            Hello World
+            "C:\Program Files\PuTTY\plink.exe" -ssh chamoy@stampede2.tacc.utexas.edu
 
-            # Transfer files from server to the local machine
-            get -transfer="automatic" -preservetime /home1/09347/chamoy/backup C:\Users\hameh\Desktop\TACC
-
-            # Exit the session
-            exit
-
-    3. PuTTY's ***plink - command-line utility*** helps run remote commands over an SSH connection. **Cron job scheduler** is used to schedule tasks.
-
-            */2 * * * * "C:\Program Files\PuTTY\plink.exe" -ssh chamoy@stampede2.tacc.utexas.edu -m C:\Users\hameh\Desktop\TACC\script.txt
-
-        * Cron schedule: `*/2 * * * *`
         * Path to *plink.exe*: `"C:\Program Files\PuTTY\plink.exe"`
         * SSH Connection details: `-ssh chamoy@stampede2.tacc.utexas.edu`
-        * Path to Backup Script: `-m C:\Users\hameh\Desktop\TACC\script.txt`
+
+    3. **Connection Confirmation:** 
