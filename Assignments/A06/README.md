@@ -44,6 +44,10 @@
     3. **Connection confirmation:**
        <img align="center" width="600" height="20" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A06/2_Confirmation.png">
 
-    4. **Code to backup files:**
+    4. **Shell Command** to write to a file stored in server
+
+            echo "Hello World" >> /home1/09347/chamoy/server/readme.txt
+
+    5. **Shell Command** to backup files to local client
 
             scp chamoy@stampede2.tacc.utexas.edu:/home1/09347/chamoy/server/* C:\Users\hameh\Desktop\TACC\local_backup\
