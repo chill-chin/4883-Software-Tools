@@ -30,12 +30,8 @@
 
 ## Demo
 
+* Below are the steps 
 1. **Download** & **Setup** WinSCP, PuTTY.
+2. This example shows how _WinSCP_ & _PuTTY_ are used to connect to **Texas Advanced Computing Cluster (TACC)**.
 
-- Securely transferring files between local host and a remote host/server.
-- integrate with vscode
-
-* Tasks like doing computational science research, training ML models need High Performance Computing clusters. These clusters are accessed remotely mostly through a client-server model
-
-* This example shows how _WinSCP_ & _PuTTY_ are used to connect to **Texas Advanced Computing Cluster (TACC)**.
 
