@@ -20,6 +20,8 @@
 
     2. **SFTP, SCP:** Subsystem networking protocols operating over SSH.
 
+<img align="center" width="600" height="330" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A06/1_SSH.png">
+
 2. **WinSCP:** Windows Secure Copy (WinSCP) is a SFTP client for Windows. It allows **_secure file transfers_** & **_graphical file management_** between a local machine and a remote server. 
     - Some **features** include GUI, file synchronization, directory vizualization, scripting and file encryption. 
 
