@@ -28,12 +28,9 @@
 3. **PuTTY:** PuTTY is an SSH, Telnet client that focuses on **_remote server access_** & **_command execution_**.
     - Some **features** include secure login, terminal emulation, port forwarding, and SSH key management.
 
-
-
-## Setup
-1. **Download** & **Setup** WinSCP, PuTTY.
-
 ## Demo
+
+1. **Download** & **Setup** WinSCP, PuTTY.
 
 - Securely transferring files between local host and a remote host/server.
 - integrate with vscode
