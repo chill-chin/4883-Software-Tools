@@ -30,7 +30,7 @@
 
 ## Demo
 
-* **Scenario:** Connect to the web server using SSH and backup files to the local client. 
+* Connect to the web server using SSH and backup files to the local client. 
 
     1. **Download** & **Setup** WinSCP, PuTTY.
 
