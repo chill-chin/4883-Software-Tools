@@ -53,6 +53,6 @@
             scp chamoy@stampede2.tacc.utexas.edu:/home1/09347/chamoy/server/* C:\Users\hameh\Desktop\TACC\local_backup\
 
 
-        * Username: `chamoy@stampede2.tacc.utexas.edu`
+        * Server Address: `chamoy@stampede2.tacc.utexas.edu`
         * Origin Path: `/home1/09347/chamoy/server/*`
         * Destination Path: `C:\Users\hameh\Desktop\TACC\local_backup\`
