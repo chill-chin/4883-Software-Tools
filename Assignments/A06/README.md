@@ -32,9 +32,5 @@
 
 * **Scenario:** Imagine that you have a web server hosting important files and databases that require regular backups.
 
-
-
-1. **Download** & **Setup** WinSCP, PuTTY.
-2. This example shows how _WinSCP_ & _PuTTY_ are used to connect to **Texas Advanced Computing Cluster (TACC)**.
-
-
+    1. **Download** & **Setup** WinSCP, PuTTY.
+    2. 
