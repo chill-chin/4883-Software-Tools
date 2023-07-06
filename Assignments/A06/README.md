@@ -30,7 +30,7 @@
 
 ## Demo
 
-* **Scenario:** Connect with the web server using SSH and backup files to local client. 
+* **Scenario:** Connect to the web server using SSH and backup files to the local client. 
 
     1. **Download** & **Setup** WinSCP, PuTTY.
 
@@ -43,3 +43,5 @@
 
     3. **Connection Confirmation:**
        <img align="center" width="600" height="20" src="https://github.com/chill-chin/4883-Software-Tools/blob/main/Assignments/A06/2_Confirmation.png">
+
+    4. 
