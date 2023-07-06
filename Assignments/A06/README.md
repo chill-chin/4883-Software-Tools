@@ -33,4 +33,18 @@
 * **Scenario:** Imagine that you have a web server hosting important files and databases that require regular backups.
 
     1. **Download** & **Setup** WinSCP, PuTTY.
-    2. 
+    2. Write a **WinSCP script** for the desired computation. We are **automating backups** for this demo.
+
+            # Connect to the remote server
+            open sftp://username:password@your-server.com
+
+            # Change to the desired remote directory
+            cd /path/to/backup/files
+
+            # Transfer files from the remote server to the local backup directory
+            get -transfer="automatic" -preservetime /path/to/backup/files/* C:\Local\Backup\Directory\
+
+            # Exit the session
+            exit
+
+    3. 
