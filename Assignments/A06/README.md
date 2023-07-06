@@ -46,4 +46,4 @@
 
     4. **Code to backup files:**
 
-            scp chamoy@stampede2.tacc.utexas.edu:/home1/09347/chamoy/backup/* C:\Users\hameh\Desktop\TACC\
+            scp chamoy@stampede2.tacc.utexas.edu:/home1/09347/chamoy/server/* C:\Users\hameh\Desktop\TACC\local_backup\
