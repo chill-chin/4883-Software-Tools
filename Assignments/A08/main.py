@@ -397,67 +397,35 @@ def min_deaths(min_date: str = None, max_date: str = None):
 
 """Route 8"""
 @app.get("/avg_deaths")
-def avg_deaths(country: str = None, region: str = None):
+def avg_deaths():
     """
-    This method will return average deaths by country and region.
+    This method will return cumulative average deaths of all countries.
 
     - **Params:**
-      - Country (str) : A Country name
-      - Region (str)  : A Region name
+      - None
 
     - **Returns:**
-      - (int) : Average deaths based on the parameters
+      - (int) : Cumulative average deaths 
 
-    #### Request URL 1:
+    #### Request URL:
 
-    [http://127.0.0.1:5000/avg_deaths?country=India](http://127.0.0.1:5000/avg_deaths?country=India)
+    [http://127.0.0.1:5000/avg_deaths](http://127.0.0.1:5000/avg_deaths)
 
-    #### Success Response 1:
-
-        {
-        "avg_deaths": 84,
-        "params": {
-            "country": "India",
-            "region": null
-        },
-        "success": true
-        }
-
-    #### Request URL 2:
-
-    [http://localhost:5000/avg_deaths?region=EURO](http://localhost:5000/avg_deaths?region=EURO)
-  
-    #### Success Response 2:
+    #### Success Response:
 
         {
-        "avg_deaths": 123,
-        "params": {
-            "country": null,
-            "region": "EURO"
-        },
+        "avg_deaths": 29306,
         "success": true
         }
     """
     try:
         new_data = data
-
-        if country:
-            new_data = new_data[new_data['Country'] == country]
-        
-        if region:
-            new_data = new_data[new_data['WHO_region'] == region]
         
         # Average Deaths
-        total_cases = new_data['New_cases'].sum()
-        total_deaths = new_data['New_deaths'].sum()
-        avg_deaths = total_cases/total_deaths
+        avg_deaths = int(new_data['New_deaths'].sum())/len(new_data['Country'].unique())
 
         return {
             "avg_deaths":  int(avg_deaths),
-            "params": {
-                    "country": country,
-                    "region": region,
-                },
                 "success": True,
             }
     except Exception as err:

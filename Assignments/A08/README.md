@@ -303,41 +303,24 @@
 <details>
 <summary><b> /avg_deaths </b></summary>
 
-* This method will return average deaths by country and region.
+* This method will return cumulative average deaths of all countries
+
 
 * **Params:**
-    - Country (str) : A Country name
-    - Region (str)  : A Region name
+    - None
 
 * **Returns:**
-    - (int) : Average deaths based on the parameters
+    - (int) : Cumulative average deaths 
 
-* #### Request URL 1: [http://127.0.0.1:5000/avg_deaths?country=India](http://127.0.0.1:5000/avg_deaths?country=India)
+* #### Request URL: [http://127.0.0.1:5000/avg_deaths](http://127.0.0.1:5000/avg_deaths)
 
-* #### Success Response 1:
-
-        {
-        "avg_deaths": 84,
-        "params": {
-            "country": "India",
-            "region": null
-        },
-        "success": true
-        }
-
-* #### Request URL 2: [http://localhost:5000/avg_deaths?region=EURO](http://localhost:5000/avg_deaths?region=EURO)
-
-* #### Success Response 2:
+* #### Success Response:
 
         {
-        "avg_deaths": 123,
-        "params": {
-            "country": null,
-            "region": "EURO"
-        },
+        "avg_deaths": 29306,
         "success": true
         }
-
+        
 </details>
 
 ---
