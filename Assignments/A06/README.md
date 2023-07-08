@@ -50,9 +50,9 @@
 
     5. **Shell Command** to backup files to local client
 
-            scp chamoy@stampede2.tacc.utexas.edu:/home1/09347/chamoy/server/* C:\Users\hameh\Desktop\TACC\local_backup\
+            scp chamoy@stampede2.tacc.utexas.edu:/home1/09347/chamoy/server/* C:\Users\hameh\Desktop\local_backup\
 
 
         * Server Address: `chamoy@stampede2.tacc.utexas.edu`
         * Origin Path: `/home1/09347/chamoy/server/*`
-        * Destination Path: `C:\Users\hameh\Desktop\TACC\local_backup\`
+        * Destination Path: `C:\Users\hameh\Desktop\local_backup\`
